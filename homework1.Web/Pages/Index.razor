@@ -1,7 +1,9 @@
 ﻿@page "/"
-@using homework1.Service
+@using homework1.Web.Service
 
 @inject INavigationService _navigationService
+
+@inject ITodayPoetryService _todayPoetryService
 
 <PageTitle>Index</PageTitle>
 
@@ -11,4 +13,8 @@ Welcome to your new app.
 
 <SurveyPrompt Title="How is Blazor working for you?" />
 
-<Button OnClick='() => _navigationService.NavigateTo("/detail/114514")'>恶臭</Button>
+@*
+	<Button OnClick='() => _navigationService.NavigateTo("/detail/114514")'>恶臭</Button>
+*@
+
+@_todayPoetry.Content

@@ -8,6 +8,8 @@
 
   <ItemGroup>
     <PackageReference Include="BootstrapBlazor" Version="7.10.8-beta13" />
+    <PackageReference Include="sqlite-net-pcl" Version="1.9.141-beta" />
+    <PackageReference Include="SQLitePCLRaw.provider.dynamic_cdecl" Version="2.1.6" />
   </ItemGroup>
 
 </Project>

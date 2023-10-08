@@ -1,4 +1,4 @@
-﻿namespace homework1.Service;
+﻿namespace homework1.Web.Service;
 
 public interface INavigationService
 {

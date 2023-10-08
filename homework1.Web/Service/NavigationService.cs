@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Components;
 
-namespace homework1.Service;
+namespace homework1.Web.Service;
 
 public class NavigationService : INavigationService
 {
